@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 MAINTAINER Jesse B. Crawford <admin@jbcrawford.us>
-ENV UNREALIRCD_VERSION 4.0.8
+ENV UNREALIRCD_VERSION 4.2.4.1
 
 RUN apt-get update && \
 	apt-get install -y build-essential curl libssl-dev ca-certificates libcurl4-openssl-dev zlib1g sudo  && \
